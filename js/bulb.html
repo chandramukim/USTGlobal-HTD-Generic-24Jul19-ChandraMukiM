@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.css">
+</head>
+<body>
+    <h2>My first JavaScript</h2>
+		<button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Click me for Date and Time</button>
+		<p id="demo"></p>
+		<h2>What can JavaScript do?</h2>
+		<p id = "d">This is a paragraph tag</p>
+		<button type="button" onclick="document.getElementById('d').innerHTML = 'Hello World'"> Click to change content</button>
+		<h2>Save Electricity</h2>
+		<button type="button" onclick="document.getElementById('imgsrc').src = 'https://www.w3schools.com/js/pic_bulbon.gif'">BUTTON ON</button>
+		<img id="imgsrc" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px;">
+        <button type="button" onclick="document.getElementById('imgsrc').src = 'https://www.w3schools.com/js/pic_bulboff    .gif'">BUTTON OFF</button>
+        <p id="change">This content will change</p>
+        <button class="btn btn-outline-primary" onclick="document.getElementById('change').style.fontSize='35px'">Try this</button>
+
+        <script src="/js/jquery.js"></script>
+        <script src="/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>objectDemo</title>
+    <script>
+        var personOne = new Object();
+        personOne.firstName='Chandra';
+        personOne.lastName='muki';
+        personOne.age=21;
+        personOne.color='brown';
+
+        var personTwo = new Object();
+        personTwo.firstName='Maya';
+        personTwo.lastName='Muki';
+        personTwo.age=20;
+        personTwo.color='brown';
+
+        var person3=new Object();
+        person3.firstName='Nisha';
+        person3.lastName='Murali';
+        person3.age=45;
+        person3.color='white';
+
+        var person4=new Object();
+        person4.firstName='Murlai';
+        person4.lastName='Dharan';
+        person4.age=50;
+        person4.color='white';
+
+        var person5 = new Object();
+        person5.firstName='Anil';
+        person5.lastName='Kumar';
+        person5.age=46;
+        person5.color='black';
+      
+        console.log("With using new keyword");
+        console.log('===============================================')
+        console.log("Name\t\t\t\tAge\t\t\tColor");
+        console.log(personOne.firstName+personOne.lastName+"\t\t\t"+personOne.age+"\t\t\t"+personOne.color);
+        console.log(personTwo.firstName+personTwo.lastName+"\t\t\t"+personTwo.age+"\t\t\t"+personTwo.color);
+        console.log(person3.firstName+person3.lastName+"\t\t\t"+person3.age+"\t\t\t"+person3.color);
+        console.log(person4.firstName+person4.lastName+"\t\t"+person4.age+"\t\t\t"+person4.color);
+        console.log(person5.firstName+person5.lastName+"\t\t\t"+person5.age+"\t\t\t"+person5.color);
+
+        /*function Person(fname,lname)
+        {
+            this.firstName=fname;
+            this.lastName=lname;
+        }
+
+        var personOne = new Person('Chandra','muki');
+        var personTwo = new Person('Maya','Muki');
+        console.log("FirstPerson is "+personOne.firstName+personOne.lastName);
+        console.log("SecondPerson is "+personTwo.firstName+personTwo.lastName);*/
+
+    </script>
+</head>
+<body>
+    <script src="assignment.js"></script>
+</body>
+</html>

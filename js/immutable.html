@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Immutable</title>
+</head>
+<body>
+    <script>
+        var message = 'Hello';//immutable variable
+        message = message+'world';//once not usable it with be removed by garbage collector
+        console.log(message);
+        var message1=message;
+        console.log(message1);
+        message='hi';
+        console.log(message);
+        console.log(message1);
+    </script>
+</body>
+</html>

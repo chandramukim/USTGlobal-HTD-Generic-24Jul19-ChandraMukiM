@@ -1,0 +1,73 @@
+body{
+    margin-left: 100px;
+    background-color: grey;
+    
+}
+#l1{
+    color:rgb(17, 16, 16);
+    margin-left: 75px;
+}
+#l2{
+    margin-left: 103px;
+    color:rgb(12, 11, 11);
+}
+#s3{
+    margin-left:115px;
+    color:rgb(29, 27, 27);
+}
+#l3{
+    margin-left:70px; 
+    color:rgb(24, 22, 22);
+}
+#l4{
+    color:rgb(29, 26, 26);
+}
+#l6{
+    margin-left: 70px;
+    color:rgb(22, 21, 21);
+}
+#l8{
+    margin-left:75px;
+    color:rgb(24, 23, 23);
+}
+sup{
+    color:red;
+}
+#i1{
+    width:23%;
+}
+#i2{
+    width:23%;
+    margin-left: 70px;
+}
+#i3,#i4{
+    width:10%;
+    margin-left:70px;
+}
+#l5{
+    margin-left: 70px;
+    color: rgb(29, 27, 27);
+}
+#l6{
+    margin-left: 200px;
+}
+#l7{
+    color:rgb(29, 27, 27);
+    margin-left: 70px;
+}
+#l8{
+    color:rgb(22, 21, 21);
+    margin-left: 240px;
+}
+#email{
+    width:25%;
+}
+#submit{
+    margin-left: 100px;
+    background-color: chocolate;
+    width:100px;
+    height:30px;
+    border-radius: 2px;
+    border:none;
+    box-shadow: 2px black;
+}

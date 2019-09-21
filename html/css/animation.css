@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+ul{
+    margin-left: 150px;
+}
+li{
+    display: inline-block;/*to display the bubbles in a single line*/
+    background-color: black;
+    width:40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 250px;
+    margin-left:100px;
+    animation: glow 1s infinite linear;/*for the bubbles to glow*/
+}
+li:hover{
+    background-color: crimson;
+}
+@keyframes glow{
+    0%, 25%, 50%, 75%, 100%{
+        transform:scale(0.5,0.5);
+    }
+    50%{
+        transform: scale(2,2);
+    }
+}
+li:nth-child(1){
+    background-color: rgb(231, 170, 182);
+    animation-delay: 0.1s;
+    box-shadow: 0 0 15px whitesmoke;
+}
+li:nth-child(2){
+    background-color: rgb(236, 122, 146);
+    animation-delay: 0.2s;
+    box-shadow: 0 0 15px whitesmoke;
+}
+li:nth-child(3){
+    background-color: rgb(211, 102, 111);
+    animation-delay: 0.3s;
+    box-shadow: 0 0 15px whitesmoke;
+}
+li:nth-child(4){
+    background-color: rgb(197, 53, 82);
+    animation-delay: 0.4s;
+    box-shadow: 0 0 15px whitesmoke;
+}
+li:nth-child(5){
+    background-color: rgb(224, 26, 66);
+    animation-delay: 0.5s;
+    box-shadow: 0 0 15px whitesmoke;
+}
+li:nth-child(6){
+    background-color: rgb(133, 8, 33);
+    animation-delay: 0.6s;
+    box-shadow: 0 0 15px whitesmoke;
+}

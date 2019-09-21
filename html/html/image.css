@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.imgclass{
+    float: left;
+    border: 1px solid white;
+    color:rgba(255, 255, 255, 0.76);
+    border-radius: 15px;
+    overflow:hidden;/*to make the picture border adjust with the borderradius*/
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:30px;/*to give a gap from one border to another in left side*/
+    margin-top: 30px;
+    font-size: 20px;
+}
+img{
+    width:400px;
+    height:350px;
+    transition:all 2s;
+}
+img:hover{
+    transform: scale(1.2,1.2);/*transform converts the image into 2D or 3D
+    and scale is in the format scale(width,height)*/
+}
+.desc{/*for text content*/
+    margin-top: 24px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>closure</title>
+</head>
+<body>
+    <script>
+        function sum(a,b){
+            function addSum(){//closure function
+                return a+b;
+            }
+            return addSum();
+        }
+        var addFunc = sum(10,20);
+        var total = addFunc;
+        console.log("total = "+total);
+        // console.log("============");
+        // console.log(window);
+        // console.log(this);
+        // console.log(this===window);
+        // console.log('checking----');
+        // var name = 'muki';
+        // console.log(window.name);
+        // console.log(this.name);
+        // console.log("====================");
+        // var person={
+        //     name:'DQ',
+        //     age:30,
+        //     getName:function(){
+        //         console.log(this);
+        //         console.log(window);
+        //         getData();
+        //         function getData(){
+        //             console.log("get data "+this);//window object
+        //             console.log(this.name);//Muki
+        //         }
+        //         return this.name;//object so DQ
+        //     }
+        // }
+        // var getnm = person.getName();
+        // console.log(getnm);
+    </script>
+</body>
+</html>
