@@ -1,0 +1,24 @@
+<div class="container mt-4">
+    <table class="table table-bordered">
+        <thead>
+            <tr class="bg-dark text-center" style="color: white">
+                <th>Index</th>
+                <th>Name</th>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>Website</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let arr of newArr">
+                <td>{{arr.id}}</td>
+                <td>{{arr.name}}</td>
+                <td>{{arr.username}}</td>
+                <td>{{arr.email}}</td>
+                <td>{{arr.website}}</td>
+                <td>{{arr.address.street}}{{arr.address.suite}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
