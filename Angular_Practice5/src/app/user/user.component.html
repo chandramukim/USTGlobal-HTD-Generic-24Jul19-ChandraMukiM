@@ -1,0 +1,16 @@
+<table class="table table-bordered table-hover mt-4">
+    <thead class="bg-danger">
+        <tr style="font-size: 20px; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <th>Id</th>
+            <th>Avatar URL</th>
+            <th>Login</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let a of arr">
+            <td><h4>{{a.id}}</h4></td>
+            <td><img [src]="a.avatar_url" alt="" style="width:200px;"></td>
+            <td><h4>{{a.login}}</h4></td>
+        </tr>
+    </tbody>
+</table>
